@@ -5,7 +5,7 @@ public class QNo10 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the no. of rows: ");
         int n = sc.nextInt();
-        
+        sc.close();
         for(int i = 1; i <= n; i++){
             for(int j = i; j > 0; j--){
                 System.out.print(j + " ");
